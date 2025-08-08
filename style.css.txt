@@ -1,0 +1,83 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eafaf1;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #2e7d32; /* Dark green */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Sections */
+section {
+  padding: 30px 20px;
+  background: white;
+  margin: 20px;
+  border-left: 6px solid #66bb6a; /* Light green */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 128, 0, 0.1);
+}
+
+h2 {
+  color: #2e7d32; /* Dark green */
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Links */
+a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Green Button Style */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1b5e20;
+}
